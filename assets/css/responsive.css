@@ -1,0 +1,144 @@
+@media screen and (max-width:600px) {
+
+    .nav-right a {
+        font-size: 15px;
+    }
+
+    .nav-right {
+        flex-direction: column;
+    }
+
+
+    #nav-contact {
+        width: 120px;
+        margin-left: -8px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #hero {
+        flex-direction: column-reverse;
+        padding: 0px 2%;
+    }
+
+    .hero-right img {
+        height: 380px;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 20px;
+
+    }
+
+    .hero-left {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        flex-direction: row;
+    }
+
+    .hero-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-links i {
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .hero-text {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    #hero-hide {
+        display: none;
+    }
+
+    .hero-down button {
+        padding: 5px 10px;
+        margin-left:30vw ;
+        width: 120px;
+
+
+    }
+
+
+
+    .hero-down {
+        align-items: center;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .hero-down h2 {
+        text-align: center;
+    }
+
+
+    .about-items{
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .about-items div{
+        flex-direction: column;
+    }
+
+    #about div #last-about{
+        width:80vw;
+    }
+
+    .about-me-text{
+        font-size:20px ;
+        padding: 5px 10px;
+        width: 240px;
+    }
+
+    .skills{
+        grid-template-columns: 1fr 1fr ;
+    }
+.skills i{
+    font-size: 60px;
+}    
+
+.port-images{
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+.port-images img{
+    width: 90vw;
+    margin: auto;
+}
+
+
+#contact form input{
+    width: 80vw;
+}
+#contact form textarea{
+    width: 80vw;
+   
+}
+
+
+
+    footer .footer-div {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #time {
+        margin-left: -18px;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,344 @@
+* {
+    font-family: "Roboto", serif;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.2s;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.nav-right a:hover {
+    font-weight: 800;
+    color: #D98324;
+}
+
+.navbar-brand:hover {
+    color: #D98324;
+    transform: scale(1.1);
+}
+
+#nav-contact {
+    background-color: #D98324;
+    color: white;
+    padding: 10px 15px;
+    margin-top: -10px;
+    border-radius: 37px;
+}
+
+.hero-right img {
+    height: 600px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-left div i {
+    padding: 12px;
+    font-size: 35px;
+    box-shadow: rgba(210, 198, 198, 0.54) 0px 3px 8px;
+    border-radius: 9px;
+    background-color: rgba(255, 228, 196, 0.523);
+}
+
+.hero-left div i:hover {
+    background-color: #D98324;
+    color: white;
+    transform: scale(1.1);
+}
+
+.hero-down button {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.hero-down button:hover {
+    border-left: 4px solid #D98324;
+    border-right: 4px solid #D98324;
+    color: #D98324;
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+
+#nav-contact:hover {
+    background-color: transparent;
+    color: #D98324;
+    border: 0.5px solid #D98324;
+}
+
+footer div i:hover {
+    color: #D98324;
+    margin: -2px;
+    /* transform: rotate(5deg); */
+}
+
+#about {
+
+    padding: 0px 10%;
+}
+
+.about-me-text {
+    padding: 10px 15px;
+    border: 5px solid black;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    width: 260px;
+}
+
+
+.explore {
+    border: none;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+.about-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 70px;
+}
+
+.a-item h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#last-about{
+    width: 50vw;
+}
+
+
+.divider{
+    position: relative;
+    height: 15vh;
+    z-index: 1;
+}
+
+.divider hr{
+    width: 10vw;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    z-index: 2;
+}
+
+
+.divid-row-one{
+    transform: rotate(35deg);
+    margin: auto;
+    position: absolute;
+    left: 35vw;
+}
+.divid-row-two{
+    margin: auto;
+    transform: rotate(-35deg);
+    position: absolute;
+    left: 35vw;
+}
+
+.fa-html5{
+    color: #FF5722;
+}
+.fa-css3{
+    color: #2196F3;
+}
+
+.fa-square-js{
+    color: #F7DF1E;
+}
+
+.fa-sass{
+    color: #CF649A;
+}
+
+.fa-react{
+    color: #2196F3;
+}
+
+.fa-bootstrap{
+    color: #563D7C;
+}
+
+.fa-square-git{
+    color: #FF5722;
+}
+
+.fa-figma{
+    color: brown;
+}
+
+.fa-database{
+    color: brown;
+}
+
+.fa-node{
+    color: green;
+}
+
+.fa-php{
+    color: #563D7C;
+}
+
+.fa-laravel{
+    color: #FF5722;
+
+}
+.skills{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills i{
+    margin-bottom: 40px;
+    font-size: 100px;
+    
+}
+
+.skills i:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.skills img{
+    margin-bottom: 40px;
+}
+
+.skills img:hover{
+    transform: scale(1.1);
+}
+
+
+#portfolio .po-category{
+    width: 20vw;
+    margin: auto;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.port-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.port-images img{
+    height: 40vh;
+    width: 32vw;
+    object-fit: cover;
+    margin: auto;
+}
+
+.port-images img:hover{
+    transform: scale(1.05);
+}
+
+
+#contact form input{
+    width: 50vw;
+    background-color: transparent;
+    height: 5vh;
+    border: none;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#contact form input:focus-visible{
+    outline: none;
+}
+
+#contact form textarea:focus-visible{
+    outline: none;
+}
+
+
+#contact form textarea{
+    width: 50vw;
+    background-color: transparent;
+    height: 15vh;
+    border: none;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact form button{
+    padding: 5px 10px ;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+
+#contact form button:hover{
+    border-left: 4px solid #D98324;
+    border-right: 4px solid #D98324;
+    color: #D98324;
+transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: whitesmoke;
+}
+
+.copyright {
+    font-size: 18px;
+    color: darkgrey;
+}
